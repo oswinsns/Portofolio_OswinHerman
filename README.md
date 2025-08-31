@@ -16,11 +16,11 @@ The goal of this project is to present myself as a developer and provide a centr
 
 ## 🚀 How to View
 
-You can visit the live site here 👉 [**Portfolio Website**](#)
+You can visit the live site here 👉 https://oswinsns.github.io/Portofolio_OswinHerman/
 Or clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/oswinsns/Portofolio_OswinHerman.git
 cd your-repo
 ```
 
@@ -28,10 +28,9 @@ cd your-repo
 
 Feel free to reach out if you’d like to connect or collaborate:
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **LinkedIn:** [your-linkedin](#)
-* **GitHub:** [your-username](https://github.com/your-username)
+* **Email:** oswinhs09@gmail.com
+* **LinkedIn:** Oswin Herman Somally
+* **GitHub:** https://github.com/oswinsns
 
 ---
 
-👉 Do you want me to make this **more professional & recruiter-focused** (emphasizing your skills/projects), or **more casual/personal** (like a friendly intro about you)?
