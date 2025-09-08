@@ -67,7 +67,7 @@ var typed = new Typed(".text", {
 
 });
 
-// qualification tabs
+// Qualification Tabs 
 
 const tabs = document.querySelectorAll('[data-target]');
 const all_content = document.querySelectorAll('[data-content]');
