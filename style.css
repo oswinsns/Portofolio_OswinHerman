@@ -459,7 +459,7 @@ img {
 
 /* ===== SKILLS =====*/
 .skills {
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   background: #f9fafb;
     border-radius: 0.75rem;
     border-color: var(--second-color);
@@ -979,4 +979,5 @@ img {
     }
 
 }
+
 
