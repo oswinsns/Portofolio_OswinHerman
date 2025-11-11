@@ -44,6 +44,7 @@
 
 html {
     scroll-behavior: smooth;
+      overflow-x: hidden;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
     color: var(--second-color);
     background-image: url(smooth-white-wave-background_52683-55288.avif);
     background-size: cover;
+      overflow-x: hidden;
 }
 
 h1, h2, p {
