@@ -479,6 +479,7 @@ img {
   text-align: center;
   transition: box-shadow 0.2s ease;
   border-color: var(--second-color);
+    overflow: hidden;
 }
 
 .skill-card:hover {
@@ -979,6 +980,7 @@ img {
     }
 
 }
+
 
 
 
