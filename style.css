@@ -206,9 +206,9 @@ img {
         top: var(--header-height);
         right: -100%;
         width: 80%;
-        height: 100%;
+        height: calc(100vh - var(--header-height));
         padding: 2rem;
-        background-color: rgba(62, 56, 50, 0.9);
+        background-color: rgba(62, 56, 50, 0.95);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
         border-left: 1px solid rgba(255, 255, 255, 0.1);
