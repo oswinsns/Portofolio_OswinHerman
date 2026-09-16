@@ -705,10 +705,10 @@ img {
 
 .layer {
     width: 100%;
-    height: 0;
-    background: rgba(62, 56, 50, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    height: 45px;
+    background: rgba(62, 56, 50, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     position: absolute;
     border-radius: 20px;
@@ -718,10 +718,9 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 40px;
-    transition: height 0.5s;
+    justify-content: flex-start;
+    padding: 0.5rem 1.25rem 1.25rem 1.25rem;
+    transition: height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .layer h5, .layer p, .layer{
@@ -729,6 +728,24 @@ img {
 }
 .row:hover .layer{
     height: 100%;
+}
+
+/* Balcony window chevron arrow styles */
+.project-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F2EE;
+    font-size: 1.15rem;
+    height: 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+.row:hover .project-arrow {
+    transform: rotate(180deg);
+    opacity: 0.65;
 }
 
 .more{
@@ -789,33 +806,47 @@ img {
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.row:hover .project-content {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .project-title {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .project-description {
   color: #F5F2EE;
-  margin-bottom: 1rem;
-  line-height: 1.4;
-  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.35;
+  font-size: 0.72rem;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.12);
   border-radius: 12px;
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.65rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
 }
 
 .project-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-
+  gap: 0.4rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
 }
 
 .project-buttons {
