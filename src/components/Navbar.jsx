@@ -66,7 +66,7 @@ export default function Navbar() {
             color: 'var(--second-color)',
           }}
         >
-          Oswin <span className="serif-italic text-accent">Herman</span>
+          Oswin Herman's <span className="serif-italic text-accent">Somally Portofolio</span>
         </a>
 
         {/* Desktop Nav */}

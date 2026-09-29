@@ -7,6 +7,7 @@ import SkillsStack from './components/SkillsStack';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import BotanicalBranch from './components/BotanicalBranch';
 
 export default function App() {
   return (
@@ -15,6 +16,9 @@ export default function App() {
       <div className="blob-bg blob-1" />
       <div className="blob-bg blob-2" />
       <div className="blob-bg blob-3" />
+
+      {/* Subtle Botanical Leaf & Branch Line-Art Animation */}
+      <BotanicalBranch />
 
       {/* Main Glassmorphic Navigation */}
       <Navbar />
