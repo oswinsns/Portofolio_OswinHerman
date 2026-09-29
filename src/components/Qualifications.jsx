@@ -29,19 +29,21 @@ const organizations = [
 
 const workplaces = [
   {
-    title: 'Hope Academy',
-    subtitle: 'Part-time, Middle School Tutor',
-    time: 'Juli - September 2023',
-  },
-  {
     title: 'Binusian Mentor (Scholarship)',
     subtitle: 'Hosting Academic Mentoring & Study Sessions',
     time: '2024 - 4th Semester',
+    image: '/1757923349493.jpg',
   },
   {
     title: 'Rumah Belajar',
     subtitle: 'Part-time Tutor for Math Olympiad Elementary Participants',
     time: 'August 2025 - Present',
+  },
+  {
+    title: 'Lotus Group',
+    subtitle: 'System Developer Intern, Develop ERP system for inventory, management for multi businesses',
+    time: 'February 2026 - Present',
+    image: '/WhatsApp Image 2026-09-21 at 15.51.14.jpeg',
   },
 ];
 
