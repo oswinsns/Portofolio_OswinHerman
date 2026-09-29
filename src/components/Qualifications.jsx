@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GraduationCap, Briefcase, Calendar } from 'lucide-react';
+import SectionTitle from './SectionTitle';
 
 /* =========================================================================
    QUALIFICATIONS & PERSONAL JOURNEY DATA
@@ -51,22 +52,12 @@ export default function Qualifications() {
   return (
     <section className="section" id="qualifications">
       <div className="bd-container">
-        {/* Section Header */}
-        <h2 className="section-title">
-          My <span className="serif-italic text-accent">Journey</span>
-        </h2>
-        <p
-          className="serif-italic"
-          style={{
-            textAlign: 'center',
-            color: 'var(--text-color-light)',
-            marginTop: '-1.5rem',
-            marginBottom: '2.5rem',
-            fontSize: '1rem',
-          }}
-        >
-          My personal journey
-        </p>
+        {/* Section Header with Animated SVG Drawing Line */}
+        <SectionTitle
+          preText="My"
+          accentText="Journey"
+          subtitle="My personal journey"
+        />
 
         {/* Outer Glassmorphism Container Card */}
         <motion.div

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Send, CheckCircle2, AlertCircle, Mail, Phone, User, MessageSquare } from 'lucide-react';
 import { initializeApp, getApps } from 'firebase/app';
 import { getDatabase, ref, set } from 'firebase/database';
+import SectionTitle from './SectionTitle';
 
 const firebaseConfig = {
   apiKey: "AIzaSyB7Y8c_TYffdaZ2ZrHBNwDnQPe0EQ7zkmM",
@@ -80,12 +81,11 @@ export default function Contact() {
   return (
     <section className="section" id="contact">
       <div className="bd-container">
-        <h2 className="section-title">
-          Get In <span className="serif-italic text-accent">Touch</span>
-        </h2>
-        <p style={{ textAlign: 'center', color: 'var(--text-color-light)', marginTop: '-1.5rem', marginBottom: '3rem' }}>
-          Have a project in mind or want to collaborate? Send me a message!
-        </p>
+        <SectionTitle
+          preText="Get In"
+          accentText="Touch"
+          subtitle="Have a project in mind or want to collaborate? Send me a message!"
+        />
 
         <motion.div
           initial={{ opacity: 0, y: 25 }}

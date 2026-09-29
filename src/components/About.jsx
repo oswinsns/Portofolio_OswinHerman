@@ -1,14 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, Award, GraduationCap } from 'lucide-react';
+import SectionTitle from './SectionTitle';
 
 export default function About() {
   return (
     <section className="section" id="about">
       <div className="bd-container">
-        <h2 className="section-title">
-          About <span className="serif-italic text-accent">Me</span>
-        </h2>
+        <SectionTitle
+          preText="About"
+          accentText="Me"
+        />
 
         <div
           style={{

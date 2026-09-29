@@ -155,18 +155,6 @@ img {
   letter-spacing: -0.02em;
 }
 
-.section-title::after {
-  position: absolute;
-  content: "";
-  width: 54px;
-  height: 0.18rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 2.2rem;
-  background-color: var(--first-color);
-  border-radius: 99px;
-}
 
 /* Button style */
 .btn-primary {

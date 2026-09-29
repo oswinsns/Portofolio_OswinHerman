@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Server, BrainCircuit, Palette } from 'lucide-react';
+import SectionTitle from './SectionTitle';
 
 const skillsData = [
   {
@@ -45,12 +46,11 @@ export default function SkillsStack() {
   return (
     <section className="section" id="skills" style={{ position: 'relative', paddingBottom: '6rem' }}>
       <div className="bd-container">
-        <h2 className="section-title">
-          Technical <span className="serif-italic text-accent">Skills</span>
-        </h2>
-        <p style={{ textAlign: 'center', color: 'var(--text-color-light)', marginTop: '-1.5rem', marginBottom: '3rem', fontSize: '0.95rem' }}>
-          Scroll down to browse through my capabilities stack
-        </p>
+        <SectionTitle
+          preText="Technical"
+          accentText="Skills"
+          subtitle="Scroll down to browse through my capabilities stack"
+        />
 
         {/* Stacking Cards Container */}
         <div style={{ position: 'relative', maxWidth: '820px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>

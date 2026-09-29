@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, ChevronUp } from 'lucide-react';
+import SectionTitle from './SectionTitle';
 
 const projects = [
   {
@@ -59,12 +60,11 @@ export default function Projects() {
   return (
     <section className="section" id="work">
       <div className="bd-container">
-        <h2 className="section-title">
-          Featured <span className="serif-italic text-accent">Projects</span>
-        </h2>
-        <p style={{ textAlign: 'center', color: 'var(--text-color-light)', marginTop: '-1.5rem', marginBottom: '3.5rem' }}>
-          Selected software engineering and design works
-        </p>
+        <SectionTitle
+          preText="Featured"
+          accentText="Projects"
+          subtitle="Selected software engineering and design works"
+        />
 
         {/* Projects Grid */}
         <div
