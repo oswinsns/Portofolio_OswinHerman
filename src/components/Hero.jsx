@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FileText, Linkedin, Instagram, Github } from 'lucide-react';
 import Turntable360 from './Turntable360';
+import AnimatedOswinLogo from './AnimatedOswinLogo';
 
 export default function Hero() {
   return (
@@ -49,12 +50,24 @@ export default function Hero() {
             style={{
               fontSize: 'var(--big-font-size)',
               fontWeight: 700,
-              lineHeight: 1.15,
+              lineHeight: 1.25,
               color: 'var(--second-color)',
               marginBottom: '1.25rem',
             }}
           >
-            Hi, I'm <span className="serif-italic text-accent">Oswin</span>
+            Hi, I'm{' '}
+            <span
+              style={{
+                display: 'inline-flex',
+                verticalAlign: 'middle',
+                width: 'auto',
+                minWidth: '180px',
+                maxWidth: '240px',
+                marginLeft: '0.2rem',
+              }}
+            >
+              <AnimatedOswinLogo width="100%" maxWidth="240px" />
+            </span>
             <br />
             A <span className="serif-italic text-accent">Computer Science</span>
             <br />
